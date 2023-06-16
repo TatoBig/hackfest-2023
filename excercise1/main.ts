@@ -16,7 +16,7 @@ const getTotalArea = (rectangles: number[][]) => {
   return totalArea;
 };
 
-fs.readFile("./input.txt", "utf8", (err, data) => {
+fs.readFile("./data.txt", "utf8", (err, data) => {
   if (err) {
     console.error(err);
     return;
